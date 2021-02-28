@@ -21,7 +21,7 @@ Although it gets good performance to predict next day's closing pricing, it can 
 ## INSTALL
 python 3.7
 
-tensorflow 1.4
+tensorflow
 
 pyqt5
 
