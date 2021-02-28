@@ -1,4 +1,4 @@
-# stock_prediction-with-LSTM-DNN
+# stock prediction with LSTM-DNN
 stock price prediction with modified LSTM model
 
 ## WHAT IT CAN DO?
