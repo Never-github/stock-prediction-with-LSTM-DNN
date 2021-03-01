@@ -21,7 +21,7 @@ Although it gets good performance to predict next day's closing pricing, it can 
 ## INSTALL
 python 3.7
 
-tensorflow
+tensorflow 1.4
 
 pyqt5
 
@@ -31,4 +31,3 @@ pandas
 
 numpy
 
-ray[tune]
