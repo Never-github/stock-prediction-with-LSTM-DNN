@@ -33,12 +33,13 @@ def fun(TIME_STEPS = 20,
     NN_LAYER = 2,
     is_train = True,
     is_test = True,
-    savingPath = "/Users/ziangcui/Desktop/test/modle.ckpt",
-    restorePath = "/Users/ziangcui/Desktop/test/",
-    data = pd.read_csv("/Users/ziangcui/Desktop/pycharm工作空间/dataset/tonghuashun1.csv")):
+    savingPath = "test/model.ckpt",
+    restorePath = "test/",
+    dataPath = "stock_data/tonghuashun1.csv"):
 
     tf.reset_default_graph()
 
+    data = pd.read_csv(dataPath)
     data = np.array(data)
     n1 = len(data[0])-1
     train_end_index = math.floor(len(data)*0.9)
@@ -316,4 +317,6 @@ def fun(TIME_STEPS = 20,
 
         return [test_predict,test_y]
 
-fun()
+fun(savingPath = "test/model.ckpt",
+    restorePath = "test",
+    dataPath = "stock_data/tonghuashun1.csv")
