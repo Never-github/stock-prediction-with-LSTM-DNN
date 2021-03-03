@@ -23,10 +23,6 @@ python 3.7
 
 tensorflow 1.4
 
-pyqt5
-
-matplotlib
-
 pandas
 
 numpy
