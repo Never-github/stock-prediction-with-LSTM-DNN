@@ -4,15 +4,11 @@ stock price prediction with modified LSTM model
 ## WHAT IT CAN DO?
 It can give the prediction value of one stock's closing price. It can not predict too far away from now and all it can do is to predict tomorrow's prcie. What we need to do is feed the data in the past of one stock.
 
-## USE
-<img width="656" alt="截屏2021-03-03 下午3 23 16" src="https://user-images.githubusercontent.com/52227742/109768898-78194e00-7c34-11eb-8506-37ebb52db783.png">
-change your own route and u can also download the stock data of tonghuashun for test.
-
-
 ## EVALUATION
 I evaluate the model with MAPE(mean absolute percent error). The best performance of some stocks trained by this model can get the MAPE to 2%-3% which means the accuracy(1-MAPE) can achieve 97%-98%.
 
 ## TRAIN YOUR OWN DATA
+<img width="353" alt="截屏2021-03-04 上午9 38 40" src="https://user-images.githubusercontent.com/52227742/109897367-90897700-7ccd-11eb-9f94-ed77a0a3a0d4.png">
 U first download the csv data of your stock from the internet and then modify the csv route in the code(put the closing pricing in the last column). It takes hours to learn a well-performed model with CPU.
 
 ## DOES IT USEFUL?
